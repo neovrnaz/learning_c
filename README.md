@@ -11,4 +11,4 @@
 </p>
 
 ## Project Structure
-The top-level directory contains multiple subdirectories. Each subdirectory is an individual project with it's own main.c file.     
+The top-level directory contains multiple subdirectories. Each subdirectory is an individual project with it's own main.c file.  
