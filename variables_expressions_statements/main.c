@@ -60,6 +60,10 @@ int main() {
 
   // Expression Statements - Statements such as printf are expression statements
   printf("Hello, World!\n");
+  i = 0;
+  i = 1 + 1;
+  x++;
+  x = y = 0;
 
   // Jump Statements - goto; break; continue; return;
   return 0;

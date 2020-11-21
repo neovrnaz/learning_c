@@ -9,3 +9,6 @@
 <p align="center">
   <img src="https://via.placeholder.com/728x350.png?text=Placeholder+Image" width="600" alt="Sublime's custom image"/>
 </p>
+
+## Project Structure
+The top-level directory contains multiple subdirectories. Each subdirectory is an individual project with it's own main.c file.     
