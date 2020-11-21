@@ -11,14 +11,34 @@ int main() {
   int y = x / 2; // The value of y is NOT x / 2
 
   /* Expression - A combination of operators and operands that reduces to a single value */
-  y; // (x / 2) Evaluates to 1 value
+  // There are 2 types of expressions
+  // 1. Assigns a value
+  x = 7;
+  // 2. Has a value
+  3 + 4;
+
+  // Arithmetic Expressions - Consists of operands and arithmetic operators
+  6*2/(2+2/3 + 6) + 8 * (8/4)
+  1 + 16;
+  17
+
+  // Relational Expressions - Compares two numeric expressions
+  x%2 == 0
+  a! = b
+  a + b == x + y
+  x >= 9
+
+  // Logical Expressions - Computes either a a zero or non zero value
+  (x > 4) && (x < 6)
+  (x > 10) || (x < 6)
+
+  // Conditional Expression - Returns 1 if true otherwise returns 0
+  expression1 ? expression2 : expression3
 
   /* Statement - Expresses some action to be carried out */
 
   // Selection Statements
-  if (expression) {
-    statement1;
-  } else {
+  else {
     statement2;
   }
 
@@ -46,3 +66,6 @@ int main() {
 
   // Selection Statements
 }
+
+/* Additional Notes */
+x = 9/2 + a - b; // Is a statement NOT an expression. The portion after the equals sign is an expression
