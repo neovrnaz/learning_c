@@ -2,24 +2,24 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="data_types"/>
+		<Option title="type_casting"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\enum\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/data_types/data_types_output"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="data_types">
-				<Option output="/Users/elijahgray/Developer/learning_c/data_types/data_types_output/data_types" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/data_types/data_types_output"/>
+			<Target title="type_casting">
+				<Option output="/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/type_casting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,15 +31,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 data_types"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 type_casting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="data_types/fast">
-				<Option output="/Users/elijahgray/Developer/learning_c/data_types/data_types_output/data_types" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/data_types/data_types_output"/>
+			<Target title="type_casting/fast">
+				<Option output="/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/type_casting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 data_types/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 type_casting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_casting/type_casting_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/elijahgray/Developer/learning_c/data_types/main.c">
-			<Option target="data_types"/>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/type_casting/main.c">
+			<Option target="type_casting"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
