@@ -5,7 +5,7 @@
 		<Option title="variables_expressions_statements"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\enum\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\enum\;CMake Files\using_functions\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/elijahgray/Developer/learning_c/variables_expressions_statements/variables_expressions_statements_output"/>
@@ -75,6 +75,9 @@
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/enum/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\enum\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/using_functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\using_functions\"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/keywords_and_identifiers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\keywords_and_identifiers\"/>

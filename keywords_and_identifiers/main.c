@@ -56,7 +56,7 @@
  * */
 
 /*
- * Identifiers - Refers to the name given to entities such as variables, functions, structures, etc.
+ * Identifiers - Refers to the name given to entities such as variables, using_functions, structures, etc.
  *
  * int money
  * double accountBalance

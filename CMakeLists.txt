@@ -13,4 +13,5 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/variables_expressions_statements" "${PRO
 add_subdirectory("${PROJECT_SOURCE_DIR}/strings" "${PROJECT_SOURCE_DIR}/strings/strings_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/area_of_circle" "${PROJECT_SOURCE_DIR}/area_of_circle/area_of_circle_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/type_casting" "${PROJECT_SOURCE_DIR}/type_casting/type_casting_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/using_functions" "${PROJECT_SOURCE_DIR}/using_functions/using_functions_output")
 
