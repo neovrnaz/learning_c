@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_types"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\enum\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/data_types/data_types_output"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_types">
+				<Option output="/Users/elijahgray/Developer/learning_c/data_types/data_types_output/data_types" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/data_types/data_types_output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 data_types"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_types/fast">
+				<Option output="/Users/elijahgray/Developer/learning_c/data_types/data_types_output/data_types" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/data_types/data_types_output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 data_types/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/data_types/data_types_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/data_types/main.c">
+			<Option target="data_types"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/data_types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data_types\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/declaration_vs_definition/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\declaration_vs_definition\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/enum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\enum\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/keywords_and_identifiers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\keywords_and_identifiers\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/variables_expressions_statements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\variables_expressions_statements\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
