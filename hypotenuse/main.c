@@ -15,7 +15,7 @@ int main() {
   printf("Enter side two of the right triangle: ");
   scanf("%i", &side2);
 
-  cSquared = (side1 *= side1) + (side2 *= side2);
+  cSquared = side1 * side1 + side2 * side2;
   hypotenuse = sqrt(cSquared);
 
   printf("\n%i² + %i² = %i²\n", side1, side2, cSquared);
