@@ -5,7 +5,7 @@
 		<Option title="functions"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\float\;CMake Files\using_functions\;CMake Files\hypotenuse\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\float\;CMake Files\using_functions\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/elijahgray/Developer/learning_c/using_functions/using_functions_output"/>
@@ -87,6 +87,9 @@
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/hypotenuse/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\hypotenuse\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/if_user_input/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\if_user_input\"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/keywords_and_identifiers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\keywords_and_identifiers\"/>

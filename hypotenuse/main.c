@@ -1,5 +1,5 @@
 /*
- * Takes two ints as inputs and outputs
+ * Takes two integers as inputs and outputs
  * the hypotenuse of a right triangle
  *
  * Date: Nov 22, 2020
