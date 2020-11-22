@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="union_data_type"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\enum\;CMake Files\using_functions\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/union/union_output"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="union_data_type">
+				<Option output="/Users/elijahgray/Developer/learning_c/union/union_output/union_data_type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/union/union_output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 union_data_type"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="union_data_type/fast">
+				<Option output="/Users/elijahgray/Developer/learning_c/union/union_output/union_data_type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/union/union_output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 union_data_type/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/union/union_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/union/main.c">
+			<Option target="union_data_type"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/area_of_circle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\area_of_circle\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/data_types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data_types\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/declaration_vs_definition/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\declaration_vs_definition\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/enum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\enum\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/using_functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\using_functions\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/keywords_and_identifiers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\keywords_and_identifiers\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/variables_expressions_statements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\variables_expressions_statements\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\strings\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/type_casting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\type_casting\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/union/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\union\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

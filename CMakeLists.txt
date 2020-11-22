@@ -14,4 +14,8 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/strings" "${PROJECT_SOURCE_DIR}/strings/
 add_subdirectory("${PROJECT_SOURCE_DIR}/area_of_circle" "${PROJECT_SOURCE_DIR}/area_of_circle/area_of_circle_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/type_casting" "${PROJECT_SOURCE_DIR}/type_casting/type_casting_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/using_functions" "${PROJECT_SOURCE_DIR}/using_functions/using_functions_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/union" "${PROJECT_SOURCE_DIR}/union/union_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/dereference_operator" "${PROJECT_SOURCE_DIR}/dereference_operator/dereference_operator_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/main_argc_argv" "${PROJECT_SOURCE_DIR}/main_argc_argv/main_argc_argv_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/pointers" "${PROJECT_SOURCE_DIR}/pointers/pointers_output")
 

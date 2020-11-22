@@ -43,9 +43,7 @@ Union
 
 // Integers are whole numbers
 int main() {
-  unsigned int a = 23;
   double d = 12345.6;
   float thisFloat = (float) d;
-  printf("data types!\n");
   return 0;
 }
