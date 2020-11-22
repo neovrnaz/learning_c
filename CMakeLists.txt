@@ -20,4 +20,5 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/main_argc_argv" "${PROJECT_SOURCE_DIR}/m
 add_subdirectory("${PROJECT_SOURCE_DIR}/pointers" "${PROJECT_SOURCE_DIR}/pointers/pointers_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/type_cast_operator" "${PROJECT_SOURCE_DIR}/type_cast_operator/type_cast_operator_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/hypotenuse" "${PROJECT_SOURCE_DIR}/hypotenuse/hypotenuse_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/float" "${PROJECT_SOURCE_DIR}/float/float_output")
 

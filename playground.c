@@ -1,6 +1,7 @@
 #import <stdio.h>
 
 int main() {
-  printf("Hello World!\n");
+  int dogs = 2.5e4;
+  printf("%i\n", dogs);
   return 0;
 }
