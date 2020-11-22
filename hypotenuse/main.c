@@ -2,6 +2,7 @@
 #include <math.h>
 
 int main() {
+  // TODO: Replace int with double
   int side1;
   int side2;
   int cSquared;
