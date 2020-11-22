@@ -5,7 +5,7 @@
 		<Option title="dereference_operator"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\using_functions\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\using_functions\;CMake Files\hypotenuse\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/elijahgray/Developer/learning_c/dereference_operator/dereference_operator_output"/>
@@ -82,6 +82,9 @@
 		<Unit filename="/Users/elijahgray/Developer/learning_c/using_functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\using_functions\"/>
 		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/hypotenuse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hypotenuse\"/>
+		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/keywords_and_identifiers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\keywords_and_identifiers\"/>
 		</Unit>
@@ -102,6 +105,9 @@
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/pointers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\pointers\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/type_cast_operator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\type_cast_operator\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

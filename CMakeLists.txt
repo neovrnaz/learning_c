@@ -18,4 +18,6 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/union" "${PROJECT_SOURCE_DIR}/union/unio
 add_subdirectory("${PROJECT_SOURCE_DIR}/dereference_operator" "${PROJECT_SOURCE_DIR}/dereference_operator/dereference_operator_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/main_argc_argv" "${PROJECT_SOURCE_DIR}/main_argc_argv/main_argc_argv_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/pointers" "${PROJECT_SOURCE_DIR}/pointers/pointers_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/type_cast_operator" "${PROJECT_SOURCE_DIR}/type_cast_operator/type_cast_operator_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/hypotenuse" "${PROJECT_SOURCE_DIR}/hypotenuse/hypotenuse_output")
 
