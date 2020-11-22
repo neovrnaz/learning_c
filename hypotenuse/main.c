@@ -3,23 +3,23 @@
 
 int main() {
   // TODO: Replace int with double
-  int side1;
-  int side2;
+  int adjacentSide;
+  int oppositeSide;
   int cSquared;
   int hypotenuse;
 
   printf("Find the hypotenuse of a triangle!\n\n");
 
-  printf("Enter side one of the right triangle: ");
-  scanf("%i", &side1);
+  printf("Enter the adjacent side: ");
+  scanf("%i", &adjacentSide);
 
-  printf("Enter side two of the right triangle: ");
-  scanf("%i", &side2);
+  printf("Enter the opposite side: ");
+  scanf("%i", &oppositeSide);
 
-  cSquared = side1 * side1 + side2 * side2;
+  cSquared = adjacentSide * adjacentSide + oppositeSide * oppositeSide;
   hypotenuse = sqrt(cSquared);
 
-  printf("\n%i² + %i² = %i²\n", side1, side2, cSquared);
+  printf("\n%i² + %i² = %i²\n", adjacentSide, oppositeSide, cSquared);
   printf("Hypotenuse = %i\n", hypotenuse);
 
   return 0;
