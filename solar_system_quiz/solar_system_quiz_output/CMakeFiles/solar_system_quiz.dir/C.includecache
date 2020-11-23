@@ -9,6 +9,8 @@
 /Users/elijahgray/Developer/learning_c/solar_system_quiz/main.c
 stdio.h
 -
+stdlib.h
+-
 string.h
 -
 
