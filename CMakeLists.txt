@@ -22,4 +22,7 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/type_cast_operator" "${PROJECT_SOURCE_DI
 add_subdirectory("${PROJECT_SOURCE_DIR}/hypotenuse" "${PROJECT_SOURCE_DIR}/hypotenuse/hypotenuse_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/float" "${PROJECT_SOURCE_DIR}/float/float_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/if_user_input" "${PROJECT_SOURCE_DIR}/if_user_input/if_user_input_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/solar_system_quiz" "${PROJECT_SOURCE_DIR}/solar_system_quiz/solar_system_quiz_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/compare_strings_in_if" "${PROJECT_SOURCE_DIR}/compare_strings_in_if/compare_strings_in_if_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/read_and_print_array" "${PROJECT_SOURCE_DIR}/read_and_print_array/read_and_print_array_output")
 

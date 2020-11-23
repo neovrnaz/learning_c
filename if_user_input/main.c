@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 
 int main() {
   char userInput[1];
@@ -13,4 +14,11 @@ int main() {
     printf("Sorry, I didn't get a 'y' or 'n' answer.");
   }
   return 0;
+
+/*
+  if (234) True as long as it's not zero
+  {
+
+  }
+*/
 }

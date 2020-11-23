@@ -5,7 +5,7 @@
 		<Option title="pointers"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\float\;CMake Files\using_functions\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\float\;CMake Files\using_functions\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\solar_system_quiz\;CMake Files\read_and_print_array\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/elijahgray/Developer/learning_c/pointers/pointers_output"/>
@@ -67,6 +67,9 @@
 		<Unit filename="/Users/elijahgray/Developer/learning_c/area_of_circle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\area_of_circle\"/>
 		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\compare_strings_in_if\"/>
+		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/data_types/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\data_types\"/>
 		</Unit>
@@ -114,6 +117,12 @@
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/type_cast_operator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\type_cast_operator\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/solar_system_quiz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\solar_system_quiz\"/>
+		</Unit>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/read_and_print_array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\read_and_print_array\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
