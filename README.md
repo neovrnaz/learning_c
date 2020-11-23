@@ -8,7 +8,7 @@
 
 ### Highlights
 
-![](solar_system_quiz/solar-system.gif)
+![](solar-system.gif)
 
 <p align="center">
   <img src="https://via.placeholder.com/728x350.png?text=Placeholder+Image" width="600" alt="Sublime's custom image"/>
