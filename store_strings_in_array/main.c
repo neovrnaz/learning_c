@@ -17,12 +17,12 @@ int main() {
 
   for (i = 0; i < n; i++) {
     printf("Enter a name: ");
-    scanf(" %[^\n]", &name[i]);
+    scanf(" %[^\n]", name[i]);
   }
 
   printf("\nList of names: ");
   for (i = 0; i < n; i++) {
-    printf("\n%s", &name[i]);
+    printf("\n%s", name[i]);
   }
 
   return 0;

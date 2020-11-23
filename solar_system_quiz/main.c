@@ -1,31 +1,72 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
+#define PLANETS 3
+#define BUFFSIZE 100
+#define PLANETSTRING 8
+
 int main() {
-  int i;
-  int planetCounter = 1;
-  char usersAnswer[8];
+  char *planetsArray[8] = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
+  char **ptr = planetsArray;
+  char correctPlanetAnswers[PLANETS][PLANETSTRING] = {};
+  int answersCorrect = 0;
 
-  printf("--------------------------------\n");
-  printf("Welcome to the Solar System Quiz!\n");
-  printf("--------------------------------\n");
+  char *planets[PLANETS];
+  char buffer[BUFFSIZE];
+  size_t i, count = 0, slen;
 
-  char *arr[8] = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
-  char **ptr = arr;
+  for (i = 0; i < PLANETS; i++) {
+    printf("Planet %lu: ", i + 1);
+    if (fgets(buffer, BUFFSIZE, stdin) == NULL) {
+      fprintf(stderr, "Error reading string into buffer.\n");
+      exit(EXIT_FAILURE);
+    }
 
-  // Show the players answers with an X next to the ones they got wrong
+    slen = strlen(buffer);
+    if (slen > 0) {
+      if (buffer[slen-1] == '\n') {
+        buffer[slen-1] = '\0';
+      } else {
+        printf("Exceeded buffer length of %d.\n", BUFFSIZE);
+        exit(EXIT_FAILURE);
+      }
+    }
 
+    planets[count] = malloc(strlen(buffer) + 1);
 
+    if (!planets[count]) {
+      printf("Cannot allocate memory for string.\n");
+      exit(EXIT_FAILURE);
+    }
 
-  for (i = 0; i < 8; i++) {
-    printf("Please enter the name of planet %i: ", planetCounter++);
-    scanf("%c", &usersAnswer[i]);
+    strcpy(planets[count], buffer);
+
+    count++;
+
   }
 
-  printf("The correct answers:\n");
-  for (i = 0; i < 8; i++)
-    printf("Planet %d) %s\n", i+1, ptr[i]);
+  // Keep track of correct answers
+  for (i = 0; i < count; i++) {
+    if (strcmp(planets[i], planetsArray[i]) == 0) {
+      strcpy(correctPlanetAnswers[i], planets[i]);
+      answersCorrect++;
+    }
+  }
 
+  printf("\nYour Answers: \n");
+  for (i = 0; i < count; i++) {
+    printf("Planet %zu) %s\n", i + 1, planets[i]);
+    free(planets[i]);
+    planets[i] = NULL;
+  }
 
+  printf("\nYou got %i answers correct!", answersCorrect);
+  printf("\nCorrect Answers List:\n\n");
+  for (i = 0; i < count; i++) {
+    if (strcmp(planetsArray[i], correctPlanetAnswers[i]) == 0) {
+      printf("Planet %zu) %s\n", i + 1, correctPlanetAnswers[i]);
+    }
+  }
   return 0;
 }
