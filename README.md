@@ -6,8 +6,9 @@
 * Lexical Variable Scope
 * Recursion
 
-### Highlights
+## Project Highlights
 
+#### Planet Order CLI Quiz
 ![](solar-system.gif)
 
 ## Project Structure
