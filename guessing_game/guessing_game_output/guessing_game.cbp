@@ -2,24 +2,24 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="type_cast_operator"/>
+		<Option title="guessing_game"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\find_position_in_array\;CMake Files\float\;CMake Files\using_functions\;CMake Files\guessing_game\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\solar_system_quiz\;CMake Files\read_and_print_array\;CMake Files\store_strings_in_array\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="type_cast_operator">
-				<Option output="/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/type_cast_operator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output"/>
+			<Target title="guessing_game">
+				<Option output="/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/guessing_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,15 +31,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 type_cast_operator"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 guessing_game"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="type_cast_operator/fast">
-				<Option output="/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/type_cast_operator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output"/>
+			<Target title="guessing_game/fast">
+				<Option output="/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/guessing_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 type_cast_operator/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/type_cast_operator/type_cast_operator_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 guessing_game/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/guessing_game/guessing_game_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/elijahgray/Developer/learning_c/type_cast_operator/main.c">
-			<Option target="type_cast_operator"/>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/guessing_game/main.c">
+			<Option target="guessing_game"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
