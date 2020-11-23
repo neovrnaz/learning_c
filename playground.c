@@ -4,24 +4,25 @@
 
 #define PLANETS 3
 #define BUFFSIZE 100
+#define PLANETSSTRING 7
 
 int main(void) {
 
   char *correctPlanets[8] = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
-  char **ptr = correctPlanets;
+  char *correctPlanetAnswers[8][30] = {};
+  char **ptr = correctPlanetAnswers;
+  int answersCorrect = 0;
 
   char *planets[PLANETS];
   char buffer[BUFFSIZE];
   size_t i, count = 0, slen;
 
   for (i = 0; i < PLANETS; i++) {
-    printf("Enter a word: ");
+    printf("Planet %lu: ", i + 1);
     if (fgets(buffer, BUFFSIZE, stdin) == NULL) {
       fprintf(stderr, "Error reading string into buffer.\n");
       exit(EXIT_FAILURE);
     }
-    printf("buffer: %s", buffer);
-    printf("PLANETS: %c", PLANETS);
 
     slen = strlen(buffer);
     if (slen > 0) {
@@ -45,22 +46,23 @@ int main(void) {
     count++;
 
   }
+
+  // Keep track of correct answers
+  for (i = 0; i < count; i++) {
+    if (strcmp(planets[i], correctPlanets[i]) == 0) {
+
+      answersCorrect++;
+    }
+  }
+
   printf("\nYour Answers: \n");
   for (i = 0; i < count; i++) {
-    printf("Planet %zu) %s\n", i, planets[i]);
-    printf("Correct Planet %zu) %s\n", i, correctPlanets[i]);
-    if (planets[i] == correctPlanets[i]) {
-      printf("It works!");
-    }
-//    printf("Planet %zu) %s\n", i, planets[i]);
+    printf("Planet %zu) %s\n", i + 1, planets[i]);
     free(planets[i]);
     planets[i] = NULL;
   }
 
-  printf("\nThe correct answers:\n");
-  for (i = 0; i < 8; i++)
-    printf("Planet %zu) %s\n", i + 1, correctPlanets[i]);
-
+  printf("\nYou got %i answers correct!\n", answersCorrect);
 
   return 0;
 }

@@ -2,24 +2,24 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="compare_strings_in_if"/>
+		<Option title="store_strings_in_array"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\float\;CMake Files\using_functions\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\solar_system_quiz\;CMake Files\read_and_print_array\;CMake Files\store_strings_in_array\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="compare_strings_in_if">
-				<Option output="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/compare_strings_in_if" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output"/>
+			<Target title="store_strings_in_array">
+				<Option output="/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/store_strings_in_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,15 +31,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 compare_strings_in_if"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 store_strings_in_array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="compare_strings_in_if/fast">
-				<Option output="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/compare_strings_in_if" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output"/>
+			<Target title="store_strings_in_array/fast">
+				<Option output="/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/store_strings_in_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 compare_strings_in_if/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/compare_strings_in_if/compare_strings_in_if_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 store_strings_in_array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/store_strings_in_array/store_strings_in_array_output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/elijahgray/Developer/learning_c/compare_strings_in_if/main.c">
-			<Option target="compare_strings_in_if"/>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/store_strings_in_array/main.c">
+			<Option target="store_strings_in_array"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
