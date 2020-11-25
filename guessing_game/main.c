@@ -10,51 +10,44 @@ int main() {
 #include <time.h>
 
 int scanLowerNum() {
-  int lowerNum;
-  printf("Enter a lower number: ");
-  scanf("%i", &lowerNum);
-  return lowerNum;
+  int lower_num;
+  scanf("%i", &lower_num);
+  return lower_num;
 }
 
 int scanUpperNum() {
-  int upperNum;
-  printf("Enter an upper number: ");
-  scanf("%i", &upperNum);
-  return upperNum;
+  int upper_num;
+  scanf("%i", &upper_num);
+  return upper_num;
 }
 
 int generateRandomNumber(lower, upper) {
-  int num = (rand() % (upper - lower + 1)) + lower;
-  return num;
+  srand(time(0));
+  int rand_num = (rand() % (upper - lower + 1)) + lower;
+  return rand_num;
 }
 
-int collectUsersGuess() {
+int askForUsersGuess() {
   int guess;
   scanf("%d", &guess);
   return guess;
 }
 
 void compareGuessToRange(lower, upper, guess) {
-  do {
-    if (guess < lower) {
-      printf("Sorry, that number is too small. Try again.\n");
-    } else if (guess > upper) {
-      printf("Sorry, that number is too large. Try again.\n");
-    }
-  } while (guess < lower || guess > upper);
+  if (guess < lower) {
+    printf("Sorry, that number is too small. Try again.\n");
+  } else if (guess > upper) {
+    printf("Sorry, that number is too large. Try again.\n");
+  }
 }
 
 void compareGuessToAnswer(randNum, guess) {
-  do {
-    if (guess == randNum) {
-      printf("You got it! The answer was %d", randNum);
-    } else if (guess) {
-      printf("Sorry, that wasn't the right number! Please Try again.\n");
-    }
-  } while (guess != randNum);
+  if (guess == randNum) {
+    printf("You got it! The answer was %d", randNum);
+  } else if (guess != randNum) {
+    printf("Sorry, that wasn't the right number! Please Try again.\n");
+  }
 }
-
-// How can you have low coupling & not parameters?
 
 void sleepcp() {
   int milliseconds = 600;
@@ -74,32 +67,33 @@ void sleepAndPrintDots() {
   sleepcp();
 }
 
-
 int main() {
 
   // Get a new seed on execution
   srand(time(0));
 
+
   // Collect lower and upper numbers
+  printf("Please enter a number");
   int lower = scanLowerNum();
+  printf("Please enter a number greater than %d", lower);
   int upper = scanUpperNum();
 
-  // Generate random number based on upper & lower numbers
-  int randomNum = generateRandomNumber(lower, upper);
-  printf("The random number %d has been generated.\n", randomNum);
+  // Generate a random number within specified range
+  printf("Generating a random number...");
+  int random_number = generateRandomNumber(lower, upper);
 
-  // Ask user to guess the number
-  printf("Please guess a random number between %d and %d: ", lower, upper);
-  int guess = collectUsersGuess();
-
-  // Notify the user what number they guessed
-  printf("You guessed %d", guess);
-
-  // Confirm that the users guess was within the specified range
-  compareGuessToRange(lower, upper, guess);
-
-  // Compare the users guess to the random number
-
+  int guess;
+  do {
+    printf("Please enter a number between %d and %d: ", lower, upper);
+    guess = askForUsersGuess();
+    compareGuessToRange(lower, upper, guess);
+    compareGuessToAnswer(random_number, guess);
+  } while (
+      (guess < lower)
+          || (guess > upper)
+          || (guess != random_number)
+      );
 
   printf("\nThanks for playing!\n");
 
