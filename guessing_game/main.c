@@ -22,7 +22,9 @@ int scanUpperNum() {
 }
 
 int generateRandomNumber(lower, upper) {
+  // Get a new seed on execution
   srand(time(0));
+
   int rand_num = (rand() % (upper - lower + 1)) + lower;
   return rand_num;
 }
@@ -43,7 +45,7 @@ void compareGuessToRange(lower, upper, guess) {
 
 void compareGuessToAnswer(randNum, guess) {
   if (guess == randNum) {
-    printf("You got it! The answer was %d", randNum);
+    printf("You got it right! The answer was %d", randNum);
   } else if (guess != randNum) {
     printf("Sorry, that wasn't the right number! Please Try again.\n");
   }
@@ -68,32 +70,24 @@ void sleepAndPrintDots() {
 }
 
 int main() {
-
-  // Get a new seed on execution
-  srand(time(0));
-
+  int guess;
 
   // Collect lower and upper numbers
-  printf("Please enter a number");
+  printf("\nPlease enter a number: ");
   int lower = scanLowerNum();
-  printf("Please enter a number greater than %d", lower);
+  printf("Please enter a number greater than %d: ", lower);
   int upper = scanUpperNum();
 
   // Generate a random number within specified range
-  printf("Generating a random number...");
+  printf("\n\nGenerating a random number...");
   int random_number = generateRandomNumber(lower, upper);
 
-  int guess;
   do {
-    printf("Please enter a number between %d and %d: ", lower, upper);
+    printf("\n\nPlease enter a number between %d and %d: ", lower, upper);
     guess = askForUsersGuess();
     compareGuessToRange(lower, upper, guess);
     compareGuessToAnswer(random_number, guess);
-  } while (
-      (guess < lower)
-          || (guess > upper)
-          || (guess != random_number)
-      );
+  } while (guess != random_number);
 
   printf("\nThanks for playing!\n");
 
