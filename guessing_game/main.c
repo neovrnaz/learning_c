@@ -40,14 +40,14 @@ void compareGuessToRange(lower, upper, guess) {
 
 void compareGuessToAnswer(randNum, guess) {
   if (guess == randNum) {
-    printf("You got it right! The answer was %d", randNum);
+    printf("\nYou got it right! The answer was %d", randNum);
   } else if (guess != randNum) {
-    printf("Sorry, that wasn't the right number! Please Try again.\n");
+    printf("\nSorry, that wasn't the right number! Please Try again.\n");
   }
 }
 
 void sleepcp() {
-  int milliseconds = 600;
+  int milliseconds = 500;
   clock_t time_end;
   time_end = clock() + milliseconds * CLOCKS_PER_SEC / 1000;
   while (clock() < time_end) {
@@ -55,7 +55,6 @@ void sleepcp() {
 }
 
 void sleepAndPrintDots() {
-  sleepcp();
   printf(".\n");
   sleepcp();
   printf(".\n");
@@ -67,7 +66,7 @@ void sleepAndPrintDots() {
 int main() {
   int guess;
 
-  printf("--------------------------------\n");
+  printf("\n--------------------------------\n");
   printf("Welcome to the Guessing Game!\n");
   printf("--------------------------------\n");
 
