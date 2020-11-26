@@ -1,11 +1,8 @@
+/**
+ * A simple guessing app that asks a for a user to guess a number
+ * between 1 - 5. The user is notified if the guess was correct.
+ * */
 #include <stdio.h>
-<<<<<<< HEAD
-// User has to guess a number between 1 - 5
-// Output whether the user got it wrong or right
-
-int main() {
-  printf("Hello, World!\n");
-=======
 #include <stdlib.h>
 #include <time.h>
 
@@ -91,6 +88,5 @@ int main() {
 
   printf("\nThanks for playing!\n");
 
->>>>>>> f3ed30e... Further seperate code into functions
   return 0;
 }
