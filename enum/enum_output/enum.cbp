@@ -5,7 +5,7 @@
 		<Option title="enum"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\find_position_in_array\;CMake Files\float\;CMake Files\using_functions\;CMake Files\guessing_game\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\solar_system_quiz\;CMake Files\read_and_print_array\;CMake Files\store_strings_in_array\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\find_position_in_array\;CMake Files\float\;CMake Files\using_functions\;CMake Files\guessing_game\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\read_and_print_array\;CMake Files\store_strings_in_array\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/elijahgray/Developer/learning_c/enum/enum_output"/>
@@ -123,9 +123,6 @@
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/type_cast_operator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\type_cast_operator\"/>
-		</Unit>
-		<Unit filename="/Users/elijahgray/Developer/learning_c/solar_system_quiz/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\solar_system_quiz\"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/read_and_print_array/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\read_and_print_array\"/>
