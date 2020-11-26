@@ -27,4 +27,6 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/read_and_print_array" "${PROJECT_SOURCE_
 add_subdirectory("${PROJECT_SOURCE_DIR}/store_strings_in_array" "${PROJECT_SOURCE_DIR}/store_strings_in_array/store_strings_in_array_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/find_position_in_array" "${PROJECT_SOURCE_DIR}/find_position_in_array/find_position_in_array_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/guessing_game" "${PROJECT_SOURCE_DIR}/guessing_game/guessing_game_output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/solar_system_quiz" "${PROJECT_SOURCE_DIR}/solar_system_quiz/solar_system_quiz_output")
+
 
