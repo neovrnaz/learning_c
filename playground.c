@@ -1,12 +1,5 @@
 #include <stdio.h>
-#include <math.h>
 
-int main(void) {
-  int input;
-  printf("Enter a number");
-
-  scanf("%d", &input);
-
-
+int main() {
   return 0;
 }

@@ -6,7 +6,7 @@ int main() {
 
   int new_low_num;
 
-  printf("Enter a low number: ");
+  printf("\nEnter a low number: ");
   scanf("%d", &low_num);
 
   printf("Enter a high number: ");

@@ -31,5 +31,8 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/solar_system_quiz" "${PROJECT_SOURCE_DIR
 add_subdirectory("${PROJECT_SOURCE_DIR}/switch" "${PROJECT_SOURCE_DIR}/switch/switch_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/nested_for_loop" "${PROJECT_SOURCE_DIR}/nested_for_loop/nested_for_loop")
 add_subdirectory("${PROJECT_SOURCE_DIR}/print_numbers" "${PROJECT_SOURCE_DIR}/print_numbers/print_numbers")
+add_subdirectory("${PROJECT_SOURCE_DIR}/arrays" "${PROJECT_SOURCE_DIR}/arrays/arrays")
+add_subdirectory("${PROJECT_SOURCE_DIR}/looping_through_2D_array" "${PROJECT_SOURCE_DIR}/looping_through_2D_array/looping_through_2D_array")
+add_subdirectory("${PROJECT_SOURCE_DIR}/strings2" "${PROJECT_SOURCE_DIR}/strings2/strings2")
 
 
