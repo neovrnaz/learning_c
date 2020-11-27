@@ -47,7 +47,7 @@ void compareGuessToAnswer(randNum, guess) {
 }
 
 void sleepcp() {
-  int milliseconds = 500;
+  int milliseconds = 300;
   clock_t time_end;
   time_end = clock() + milliseconds * CLOCKS_PER_SEC / 1000;
   while (clock() < time_end) {
