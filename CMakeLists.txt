@@ -30,5 +30,6 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/guessing_game" "${PROJECT_SOURCE_DIR}/gu
 add_subdirectory("${PROJECT_SOURCE_DIR}/solar_system_quiz" "${PROJECT_SOURCE_DIR}/solar_system_quiz/solar_system_quiz_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/switch" "${PROJECT_SOURCE_DIR}/switch/switch_output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/nested_for_loop" "${PROJECT_SOURCE_DIR}/nested_for_loop/nested_for_loop")
+add_subdirectory("${PROJECT_SOURCE_DIR}/print_numbers" "${PROJECT_SOURCE_DIR}/print_numbers/print_numbers")
 
 
