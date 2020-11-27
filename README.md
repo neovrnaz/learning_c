@@ -8,13 +8,13 @@
 
 # Project Highlights
 
-#### Planet Order CLI Quiz
+### Planet Order CLI Quiz
 Has the user enter the planets of the solar system.
 ![](solar-system.gif)  
 
-#### Guessing Game
+### Guessing Game
 Lets the user enter two numbers that's then used as the range for the random number.
 ![](guessing-game.gif)
 
-## Project Structure
+# Project Structure
 The top-level directory contains multiple subdirectories. Each subdirectory is an individual project with it's own main.c file.  
