@@ -5,21 +5,21 @@
 		<Option title="structs"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\arrays\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\find_position_in_array\;CMake Files\float\;CMake Files\using_functions\;CMake Files\guessing_game\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\read_and_print_array\;CMake Files\store_strings_in_array\;CMake Files\solar_system_quiz\;CMake Files\switch\;CMake Files\nested_for_loop\;CMake Files\print_numbers\;CMake Files\looping_through_2D_array\;CMake Files\strings2\;CMake Files\structs\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\area_of_circle\;CMake Files\arrays\;CMake Files\compare_strings_in_if\;CMake Files\data_types\;CMake Files\declaration_vs_definition\;CMake Files\dereference_operator\;CMake Files\enum\;CMake Files\find_position_in_array\;CMake Files\float\;CMake Files\using_functions\;CMake Files\guessing_game\;CMake Files\hypotenuse\;CMake Files\if_user_input\;CMake Files\keywords_and_identifiers\;CMake Files\variables_expressions_statements\;CMake Files\strings\;CMake Files\type_casting\;CMake Files\union\;CMake Files\main_argc_argv\;CMake Files\pointers\;CMake Files\type_cast_operator\;CMake Files\read_and_print_array\;CMake Files\store_strings_in_array\;CMake Files\solar_system_quiz\;CMake Files\switch\;CMake Files\nested_for_loop\;CMake Files\print_numbers\;CMake Files\looping_through_2D_array\;CMake Files\strings2\;CMake Files\using_structs\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/structs/structs"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/using_structs/structs"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="structs">
-				<Option output="/Users/elijahgray/Developer/learning_c/structs/structs/structs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/structs/structs"/>
+				<Option output="/Users/elijahgray/Developer/learning_c/using_structs/structs/structs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/using_structs/structs"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,15 +31,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 structs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 structs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="structs/fast">
-				<Option output="/Users/elijahgray/Developer/learning_c/structs/structs/structs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/elijahgray/Developer/learning_c/structs/structs"/>
+				<Option output="/Users/elijahgray/Developer/learning_c/using_structs/structs/structs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/elijahgray/Developer/learning_c/using_structs/structs"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,14 +51,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 structs/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 structs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/elijahgray/Developer/learning_c/using_structs/structs/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/elijahgray/Developer/learning_c/structs/main.c">
+		<Unit filename="/Users/elijahgray/Developer/learning_c/using_structs/main.c">
 			<Option target="structs"/>
 		</Unit>
 		<Unit filename="/Users/elijahgray/Developer/learning_c/CMakeLists.txt">
@@ -151,8 +151,8 @@
 		<Unit filename="/Users/elijahgray/Developer/learning_c/strings2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\strings2\"/>
 		</Unit>
-		<Unit filename="/Users/elijahgray/Developer/learning_c/structs/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\structs\"/>
+		<Unit filename="/Users/elijahgray/Developer/learning_c/using_structs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\using_structs\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

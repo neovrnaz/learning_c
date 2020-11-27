@@ -1,4 +1,4 @@
-# Install script for directory: /Users/elijahgray/Developer/learning_c/structs
+# Install script for directory: /Users/elijahgray/Developer/learning_c/using_structs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

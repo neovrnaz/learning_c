@@ -36,7 +36,7 @@
  * Keywords - Reserved keywords for the compiler
  *
  * +----------+--------+----------+----------+
- * | auto     | double | int      | struct   |
+ * | auto     | double | int      | using_structs   |
  * +----------+--------+----------+----------+
  * | break    | else   | long     | switch   |
  * +----------+--------+----------+----------+

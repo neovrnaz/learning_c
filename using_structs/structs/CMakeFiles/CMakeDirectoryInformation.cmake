@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/elijahgray/Developer/learning_c")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/elijahgray/Developer/learning_c/structs/structs")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/elijahgray/Developer/learning_c/using_structs/structs")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
