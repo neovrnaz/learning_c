@@ -18,5 +18,10 @@ Lets the user enter two numbers that's then used as the range for the random num
 <br>
 ![](guessing-game.gif)  
 
+### Print Numbers Vertically & Horizontally  
+This program will print numbers vertically and horizontally based on user input.  
+<br>
+![](print-numbers.gif)  
+
 # Project Structure
 The top-level directory contains multiple subdirectories. Each subdirectory is an individual project with it's own main.c file.  
