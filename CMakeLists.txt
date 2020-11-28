@@ -34,6 +34,6 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/print_numbers" "${PROJECT_SOURCE_DIR}/pr
 add_subdirectory("${PROJECT_SOURCE_DIR}/arrays" "${PROJECT_SOURCE_DIR}/arrays/arrays")
 add_subdirectory("${PROJECT_SOURCE_DIR}/looping_through_2D_array" "${PROJECT_SOURCE_DIR}/looping_through_2D_array/looping_through_2D_array")
 add_subdirectory("${PROJECT_SOURCE_DIR}/strings2" "${PROJECT_SOURCE_DIR}/strings2/strings2")
-add_subdirectory("${PROJECT_SOURCE_DIR}/using_structs" "${PROJECT_SOURCE_DIR}/using_structs/structs")
+add_subdirectory("${PROJECT_SOURCE_DIR}/using_structs" "${PROJECT_SOURCE_DIR}/using_structs/using_structs")
 
 

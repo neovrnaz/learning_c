@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/elijahgray/Developer/learning_c/using_structs/main.c" "/Users/elijahgray/Developer/learning_c/using_structs/structs/CMakeFiles/structs.dir/main.c.o"
+  "/Users/elijahgray/Developer/learning_c/using_structs/main.c" "/Users/elijahgray/Developer/learning_c/using_structs/using_structs/CMakeFiles/using_structs.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

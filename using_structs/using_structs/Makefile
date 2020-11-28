@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/elijahgray/Developer/learning_c/cmake-build-debug/CMakeFiles /Users/elijahgray/Developer/learning_c/using_structs/structs/CMakeFiles/progress.marks
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/structs/all
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/elijahgray/Developer/learning_c/cmake-build-debug/CMakeFiles /Users/elijahgray/Developer/learning_c/using_structs/using_structs/CMakeFiles/progress.marks
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/using_structs/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elijahgray/Developer/learning_c/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/structs/clean
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/using_structs/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,12 +117,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/structs/preinstall
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/using_structs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/structs/preinstall
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/using_structs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -131,19 +131,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-../using_structs/structs/CMakeFiles/structs.dir/rule:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/structs/CMakeFiles/structs.dir/rule
-.PHONY : ../using_structs/structs/CMakeFiles/structs.dir/rule
+../using_structs/using_structs/CMakeFiles/using_structs.dir/rule:
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ../using_structs/using_structs/CMakeFiles/using_structs.dir/rule
+.PHONY : ../using_structs/using_structs/CMakeFiles/using_structs.dir/rule
 
 # Convenience name for target.
-structs: ../using_structs/structs/CMakeFiles/structs.dir/rule
+using_structs: ../using_structs/using_structs/CMakeFiles/using_structs.dir/rule
 
-.PHONY : structs
+.PHONY : using_structs
 
 # fast build rule for target.
-structs/fast:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/structs/CMakeFiles/structs.dir/build.make ../using_structs/structs/CMakeFiles/structs.dir/build
-.PHONY : structs/fast
+using_structs/fast:
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/using_structs/CMakeFiles/using_structs.dir/build.make ../using_structs/using_structs/CMakeFiles/using_structs.dir/build
+.PHONY : using_structs/fast
 
 main.o: main.c.o
 
@@ -151,7 +151,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/structs/CMakeFiles/structs.dir/build.make ../using_structs/structs/CMakeFiles/structs.dir/main.c.o
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/using_structs/CMakeFiles/using_structs.dir/build.make ../using_structs/using_structs/CMakeFiles/using_structs.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -160,7 +160,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/structs/CMakeFiles/structs.dir/build.make ../using_structs/structs/CMakeFiles/structs.dir/main.c.i
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/using_structs/CMakeFiles/using_structs.dir/build.make ../using_structs/using_structs/CMakeFiles/using_structs.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -169,7 +169,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/structs/CMakeFiles/structs.dir/build.make ../using_structs/structs/CMakeFiles/structs.dir/main.c.s
+	cd /Users/elijahgray/Developer/learning_c/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ../using_structs/using_structs/CMakeFiles/using_structs.dir/build.make ../using_structs/using_structs/CMakeFiles/using_structs.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -180,7 +180,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... structs"
+	@echo "... using_structs"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
